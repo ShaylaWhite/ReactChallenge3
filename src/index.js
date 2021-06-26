@@ -27,7 +27,7 @@ function App() {
             type="text"
             value={name}
             placeholder="William"
-            onChange={e => setName(e.target.value)}
+            onChange={(e) => setName(e.target.value)}
           />
         </div>
 
@@ -38,7 +38,7 @@ function App() {
             className="input"
             placeholder="38"
             value={age}
-            onChange={e => setAge(e.target.value)}
+            onChange={(e) => setAge(e.target.value)}
           />
         </div>
       </div>
